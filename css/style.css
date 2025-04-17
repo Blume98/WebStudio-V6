@@ -656,9 +656,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  /* width: 408px; */
   width: 288px;
-  /* min-height: 584px; */
   min-height: 623px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1061,13 +1059,11 @@ button {
 
   /* ------FOOTER TAB-----  */
 
-  .footer {
-    padding: 96px;
-  }
   .container-footer {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
+    padding-left: 96px;
   }
 
   .logo-container-footer {
@@ -1086,5 +1082,17 @@ button {
 
   .form-text {
     text-align: unset;
+  }
+
+  /* -----MODAL TAB------ */
+
+  .modal-backdrop {
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+  }
+
+  .policy-link {
+    margin-left: unset;
   }
 }
