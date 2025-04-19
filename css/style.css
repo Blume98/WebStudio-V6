@@ -1096,6 +1096,10 @@ button {
 
   /* -------HERO DESK-------- */
 
+  .container-hero {
+    padding: 188px 0;
+  }
+
   .section-hero {
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
